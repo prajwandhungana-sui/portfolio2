@@ -1,31 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>Prajwan Dhungana</title>
 </head>
 <body>
-    <header>
-        <h1>MY PORTFOLIO</h1>
-        <P>HI MY NAME IS PRAJWAN DHUNGANA</P>
-    </header>
-    <NAV>
-        <UL>
-            <li><A HREF="#ABOUT">ABOUT</A></li>
-            <li><A HREF="#PROJECTS">PROJECTS</A></li>
-            <li><A HREF="#CONTACT">CONTACT</A></li>
-        </UL>
-    </NAV>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is where you can add information about yourself.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>my work.</p>
-    <section id="contact">
-        <h2>Contact Me</h2>
+  <nav>
+    <div class="main">
+      <div class="name">
+        <h3>Prajwan Dhungana</h3>
+      </div>
+      <div class="info">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#ab-me">About Me</a></li>
+          <li><a href="#quali">Education</a></li>
+          <li><a href="#interest">Interests</a></li>
+          <li><a href="#side">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="s-main">
+      <div class="img">
+        <img id="myimg" src="profile.jpg" alt="Prajwan Dhungana">
+      </div>
+      <div class="intro">
+        <h3>Hello, it's me</h3>
+        <h5>Prajwan Dhungana</h5>
+        <p>I am passionate about becoming a software developer. Explore my skills, interests, and journey below!</p>
+        <div class="buttons">
+          <a href="#ab-me" class="btn">About Me</a>
+          <a href="#pmain" class="btn btn-alt">Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ab-me">
+    <h1>About Me</h1>
+    <p>
+      I am Prajwan Dhungana from Biratnagar, Nepal, a 19-year-old enthusiastic learner. I am currently pursuing a BSc in Computer Science through a UK-based program at Biratnagar International College. I aim to build a strong future in software development.
+    </p>
+  </section>
+
+  <section id="quali">
+    <h1>Qualification</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Board</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SEE</td>
+          <td>Saptakoshi</td>
+          <td>NEB</td>
+          <td>3.71</td>
+        </tr>
+        <tr>
+          <td>+2</td>
+          <td>Greenland</td>
+          <td>NEB</td>
+          <td>3.57</td>
+        </tr>
+        <tr>
+          <td>DLE</td>
+          <td>Saptakoshi</td>
+          <td>PABSON</td>
+          <td>3.71</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="interest">
+    <h1>Interests & Hobbies</h1>
+
+    <div class="hobby">
+      <h3>Reading Manga & Anime</h3>
+      <p>I enjoy exploring manga and anime, which inspire creativity and imagination.</p>
+    </div>
+
+    <div class="hobby">
+      <h3>Football (Real Madrid Fan)</h3>
+      <p>I am a passionate Real Madrid supporter and enjoy watching and playing football.</p>
+    </div>
+
+    <div class="hobby">
+      <h3>Coding</h3>
+      <p>I love coding and constantly learning new technologies to improve my skills.</p>
+    </div>
+
+  </section>
+
+  <section id="pmain">
+    <h1>Featured Projects</h1>
+    <div class="project-boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </section>
+
+  <aside id="side">
+    <h1>Connect with Me</h1>
+    <p>Interested in my profile? Let’s connect!</p>
+    <div class="icon">
+      <i class="ri-instagram-fill"></i>
+      <i class="ri-facebook-circle-fill"></i>
+      <i class="ri-twitter-x-line"></i>
+      <i class="ri-dribbble-line"></i>
+    </div>
+
+    <form>
+      <h2>Contact Me</h2>
+      <input type="text" placeholder="Name"><br>
+      <input type="email" placeholder="Email"><br>
+      <textarea placeholder="Message"></textarea><br>
+      <button id="send-btn" type="submit">Send</button>
+    </form>
+  </aside>
+
+  <footer>
+    <p>© 2025 Prajwan Dhungana</p>
+    <div class="social-icons">
+      <i class="ri-instagram-fill"></i>
+      <i class="ri-facebook-circle-fill"></i>
+      <i class="ri-twitter-x-line"></i>
+    </div>
+  </footer>
 </body>
 </html>
