@@ -205,7 +205,15 @@
     color: #9b59b6;
     transition: all 0.3s ease;
   }
-  
+  .signup-btn{
+    background-color:#9b59b6;
+    color:white;
+    padding:8px 10px;
+    border:none;
+    border-radius:5px;
+    cursor:hand;
+    font-weight:bold;
+  }
 .social-icons > i:hover {
     color: gray;
   }

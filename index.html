@@ -106,7 +106,9 @@
   <section id="pmain">
     <h1>Featured Projects</h1>
     <div class="project-boxes">
-      <div class="box"></div>
+      <!-- <div class="box">
+        <img src = "ap24153770161861-20240601212520974.jpg" alt = smth>
+      </div> -->
       <div class="box"></div>
       <div class="box"></div>
     </div>
@@ -130,6 +132,19 @@
       <button id="send-btn" type="submit">Send</button>
     </form>
   </aside>
+    <h1>Media Embedding Example</h1>
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="ytmp3free.cc_cristiano-ronaldo-siuuu-but-christmas-songs-youtubemp3free.org.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <h2>Video</h2>
+  <video controls width="640" height="360" poster="C:\Users\Acer\Desktop\sem3 year2\arvind sir\week1\ap24153770161861-20240601212520974.jpg">
+    <source src="Best caption wins! 🤔.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
   <footer>
     <p>© 2025 Prajwan Dhungana</p>
@@ -137,6 +152,20 @@
       <i class="ri-instagram-fill"></i>
       <i class="ri-facebook-circle-fill"></i>
       <i class="ri-twitter-x-line"></i>
+       <!-- Big Sign Up Button -->
+  <button class="signup-btn" id="signupBtn">Up</button>
+
+  <script>
+    const signupBtn = document.getElementById("signupBtn");
+
+    // Scroll to top when Sign Up is clicked
+    signupBtn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 10,
+        behavior: "smooth"
+      });
+    });
+  </script>
     </div>
   </footer>
 </body>
